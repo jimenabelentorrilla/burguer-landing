@@ -1,0 +1,164 @@
+.banner {
+    background-image: url(./assets/szabo-viktor-oDBmduFQDn4-unsplash.jpg);
+    height: 700px;
+}
+
+
+/****************/
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5rem 10rem;
+}
+
+.li-dec {
+    text-decoration: none;
+}
+
+
+/*******segunda row -quienes somos-********/
+
+.us {
+    height: 600px;
+    padding: 13rem 10rem 1rem 10rem;
+}
+
+.img-us {
+    width: 560px;
+    height: auto;
+}
+
+.us-title,
+.suc-title {
+    color: #444444;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 44px;
+}
+
+.hr-grey {
+    opacity: 0.1;
+}
+
+.us-p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+/*******tercera row -menu-*********/
+
+.menu-title {
+    color: #444444;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.menu {
+    height: 700px;
+}
+
+.title-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+
+.hr-pink {
+    width: 240px;
+    color: #ff0081;
+    opacity: 1.25;
+}
+
+.menu-title,
+.suc-title {
+    text-align: center;
+}
+
+.menu-flex,
+.frp-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.bgr-title,
+.frp-title {
+    color: #444444;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.bgr-size {
+    width: 260px;
+    height: auto;
+}
+
+.hr-pink-flex {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0rem;
+}
+
+
+/********cuarta row frappes*****/
+
+.frp,
+.suc2 {
+    padding: 4rem 11rem;
+}
+
+.frp-img {
+    width: 360px;
+}
+
+
+/*******suc********/
+
+.icn-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.hr-suc-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suc2-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.suc2-title {
+    color: #444444;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.suc2-p {
+    font-size: 18px;
+    color: #444444;
+}
