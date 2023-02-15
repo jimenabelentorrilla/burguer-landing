@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="css/assets/burguer.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Burguer</title>
+    <title>Burger</title>
 
 </head>
 
@@ -15,9 +19,9 @@
     <div class="container-fluid">
         <div class="row banner">
             <div class="col-lg-12">
-                <div class="nav-flex nav-grey">
+                <div id="nav" class="nav-flex fixed-top">
                     <div>
-                        <img src="./css/assets/code_white.svg">
+                        <img src="./css/assets/burguer (1).png">
                     </div>
                     <div>
                         <ul class="nav">
@@ -36,14 +40,12 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
-
         <div id="us" class="row us">
             <div class="col-lg-6">
                 <div>
-                    <img class="img-us" src="./css/assets/jakub-kapusnak-4hgYULBzVEE-unsplash.jpg">
+                    <img class="img-us" src="./css/assets/us.jpg">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -61,50 +63,44 @@
                     <h2 class="menu-title">MENÚ</h2>
                     <hr class="hr-pink">
                 </div>
-
                 <div class="menu-flex">
                     <div>
-                        <p class="bgr-title">CLASSIC</p>
+                        <p class="bgr-title">TRUE BIG BURGER</p>
                         <img class="bgr-size" src="./css/assets/burguer1.jpg">
-
                     </div>
                     <div>
-                        <p class="bgr-title">HAMBRIENTA</p>
+                        <p class="bgr-title">MEXICANA</p>
                         <img class="bgr-size" src="./css/assets/burguer2.jpg">
                     </div>
                     <div>
-                        <p class="bgr-title">FRIES</p>
-                        <img class="bgr-size" src="./css/assets/burguer3.jpg">
-                    </div>
-                    <div>
-                        <p class="bgr-title">CHICKEN CLASSIC</p>
+                        <p class="bgr-title">CHICKEN BBQ</p>
                         <img class="bgr-size" src="./css/assets/burguer4.jpg">
                     </div>
+                    <div>
+                        <p class="bgr-title">FRITAS</p>
+                        <img class="bgr-size" src="./css/assets/burguer3.jpg">
+                    </div>
+
                 </div>
                 <div class="hr-pink-flex">
                     <hr class="hr-pink">
                 </div>
-
             </div>
         </div>
         <div class="row frp">
             <div class="col-lg-12">
                 <div class="frp-flex">
                     <div>
-
-                        <p class="frp-title">CHOCO CUIK</p>
-                        <img class="frp-img" src="./css/assets/frappe.jpg">
-
+                        <p class="frp-title">PALITO BOMBÓN</p>
+                        <img class="frp-img" src="./css/assets/frp1.jpg">
                     </div>
                     <div>
-                        <p class="frp-title">GANSO-STU</p>
-                        <img class="frp-img" src="./css/assets/frappe.jpg">
-
+                        <p class="frp-title">CONO DE VAINILLA</p>
+                        <img class="frp-img" src="./css/assets/frp2.jpg">
                     </div>
                     <div>
-                        <p class="frp-title">PINK MONSTER</p>
-                        <img class="frp-img" src="./css/assets/frappe.jpg">
-
+                        <p class="frp-title">BISCUIT HELADA</p>
+                        <img class="frp-img" src="./css/assets/frp3.jpg">
                     </div>
                 </div>
             </div>
@@ -115,7 +111,6 @@
                     <h2 class="suc-title">DIRECCIÓN</h2>
                     <hr class="hr-pink">
                 </div>
-
             </div>
         </div>
         <div class="row suc2">
@@ -150,28 +145,33 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
-        <div class="row">
+
+        <div id="contacto" class="row contacto">
             <div class="col-lg-12">
-                <div>
-                    <h2>CONTACTO</h2>
-                </div>
-                <div>
-                    <form>
-                        <input type="text" name="" id="" placeholder="Nombre*">
-                        <input type="email" name="" id="" placeholder="Correo*">
-                        <input type="submit" value="ENVIAR">
-                    </form>
+                <div class="contacto-flex">
+                    <div class="hr-pink-flex">
+                        <h2 class="contacto-title">CONTACTO</h2>
+                        <hr class="hr-pink">
+                    </div>
+                    <div class="form-flex">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="3"></textarea>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
 
     <script src="./js/script.js"></script>
     <!-- FontAwesome -->
