@@ -4,10 +4,8 @@ let prevY = window.scrollY;
 window.addEventListener("scroll", function(){
     if (prevY > window.scrollY) {
         nav.classList.remove("off");
-        console.log("volviendo al top");
     } else {
         nav.classList.add("off");
-        console.log("bajando");
     }
 
     if (window.scrollY > 500){
@@ -15,6 +13,7 @@ window.addEventListener("scroll", function(){
     } else {
         nav.classList.remove("bg-scroll");
     }
-
     prevY = window.scrollY;
 });
+
+

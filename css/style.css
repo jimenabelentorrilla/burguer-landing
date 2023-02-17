@@ -5,7 +5,9 @@
     background-size: cover;
 }
 
-
+.modal-backdrop{
+    opacity: 0.8 !important;
+}
 /****************/
 
 .nav-flex {
@@ -35,13 +37,41 @@
 }
 
 .li-dec {
-    text-decoration: none;
+    color: #EEEEEE;
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    width: fit-content;
+    font-weight: 500;
+    opacity: 0.8;
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+}
+
+.li-dec:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(253, 89, 0, 1);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+.li-dec:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .li-dec:hover {
-    text-decoration: 3px underline rgba(253, 89, 0, 1);
+    text-decoration: none;
+    color: #EEEEEE;
 }
+
 
 
 /*******segunda row -quienes somos-********/
@@ -74,6 +104,7 @@
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     opacity: 0.8;
+    line-height: 2;
 }
 
 
@@ -129,7 +160,15 @@
 .bgr-size {
     width: 260px;
     height: auto;
+    transition: .3s;
+    opacity: 0.55;
+    backdrop-filter: blur(0px);
+}
+.bgr-size:hover{
+    opacity: 1;
     cursor: pointer;
+    backdrop-filter: none;
+    transform: scale(1.05);
 }
 
 .hr-pink-flex {
@@ -154,6 +193,15 @@
 .frp-img {
     width: 310px;
     cursor: pointer;
+    transition: .3s;
+    opacity: 0.55;
+    backdrop-filter: blur(0px);
+}
+.frp-img:hover{
+    opacity: 1;
+    cursor: pointer;
+    backdrop-filter: none;
+    transform: scale(1.05);
 }
 
 
@@ -223,4 +271,39 @@
     font-weight: 700;
     font-size: 44px;
     font-family: 'Arvo', serif;
+}
+
+/****************************************************/
+.li-dec {
+    color: #EEEEEE;
+    font-size: 18px;
+    width: fit-content;
+    font-weight: 500;
+    opacity: 0.8;
+    display: inline-block;
+    position: relative;
+    list-style: none;
+}
+
+.li-dec:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(253, 89, 0, 1);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+.li-dec:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.li-dec:hover {
+    text-decoration: none;
+    color: #EEEEEE;
 }
