@@ -5,9 +5,11 @@
     background-size: cover;
 }
 
-.modal-backdrop{
+.modal-backdrop {
     opacity: 0.8 !important;
 }
+
+
 /****************/
 
 .nav-flex {
@@ -17,14 +19,16 @@
     justify-content: space-between;
     padding: 1.5rem 8rem;
     transition: 0.5s linear 0.1s;
-    
 }
-.bg-scroll{
+
+.bg-scroll {
     background-color: #111111e0;
 }
-.off{
+
+.off {
     transform: translateY(-300px);
 }
+
 .nav {
     display: flex;
     flex-direction: row;
@@ -71,7 +75,6 @@
     text-decoration: none;
     color: #EEEEEE;
 }
-
 
 
 /*******segunda row -quienes somos-********/
@@ -164,7 +167,8 @@
     opacity: 0.55;
     backdrop-filter: blur(0px);
 }
-.bgr-size:hover{
+
+.bgr-size:hover {
     opacity: 1;
     cursor: pointer;
     backdrop-filter: none;
@@ -197,7 +201,8 @@
     opacity: 0.55;
     backdrop-filter: blur(0px);
 }
-.frp-img:hover{
+
+.frp-img:hover {
     opacity: 1;
     cursor: pointer;
     backdrop-filter: none;
@@ -273,7 +278,9 @@
     font-family: 'Arvo', serif;
 }
 
+
 /****************************************************/
+
 .li-dec {
     color: #EEEEEE;
     font-size: 18px;

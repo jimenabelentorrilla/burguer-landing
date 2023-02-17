@@ -18,7 +18,7 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row banner">
+        <!---- <div class="row banner">
             <div class="col-lg-12">
                 <div id="nav" class="nav-flex fixed-top">
                     <div data-aos="fade-up">
@@ -42,17 +42,66 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="us" class="row us">
-            <div  class="col-lg-6">
-                <div>
-                    <img data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-duration="1500" class="img-us aos-init" src="./css/assets/us.jpg">
+        </div>----->
+        <!-----------------carrousel-------------->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="col-lg-12">
+                <div id="nav" class="nav-flex fixed-top">
+                    <div data-aos="fade-up">
+                        <img src="./css/assets/burguer (1).png">
+                    </div>
+                    <div>
+                        <ul class="nav">
+                            <a class="li-dec" href="#us" style="color:#ffffff">
+                                <li>QUIENES SOMOS</li>
+                            </a>
+                            <a class="li-dec" href="#menu" style="color:#ffffff">
+                                <li>MENÚ</li>
+                            </a>
+                            <a class="li-dec" href="#direccion" style="color:#ffffff">
+                                <li>DIRECCIÓN</li>
+                            </a>
+                            <a class="li-dec" href="#contacto" style="color:#ffffff">
+                                <li>CONTACTO</li>
+                            </a>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div data-aos="fade-up" data-aos-easing="linear"
-            data-aos-duration="1500" class="col-lg-6 aos-init">
-                <div  >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./css/assets/carrousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./css/assets/carrousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./css/assets/car.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+        <div id="us" class="row us">
+            <div class="col-lg-6">
+                <div>
+                    <img data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="img-us aos-init" src="./css/assets/us.jpg">
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="col-lg-6 aos-init">
+                <div>
                     <h1 class="us-title">QUIENES SOMOS</h1>
                     <hr class="hr-grey">
                     <p class="us-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi excepturi fugit esse aspernatur fuga officia quos quae nisi placeat iure praesentium saepe dolorem autem, quo perspiciatis, minima minus. Inventore, tempore. Lorem
@@ -106,21 +155,21 @@
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
                             <img class="frp-img rounded" src="./css/assets/frp1.jpg">
                         </a>
-                        
+
                     </div>
                     <div>
                         <p class="frp-title">CONO DE VAINILLA</p>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
                             <img class="frp-img rounded" src="./css/assets/frp2.jpg">
                         </a>
-                        
+
                     </div>
                     <div>
                         <p class="frp-title">BISCUIT HELADA</p>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
                             <img class="frp-img rounded" src="./css/assets/frp3.jpg">
                         </a>
-                        
+
                     </div>
                 </div>
             </div>
@@ -192,23 +241,46 @@
             </div>
         </div>
     </div>
-    <!-----------------carrousel-------------->
+    <!-----------------carrousel-----------
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="col-lg-12">
+            <div id="nav" class="nav-flex fixed-top">
+                <div data-aos="fade-up">
+                    <img src="./css/assets/burguer (1).png">
+                </div>
+                <div>
+                    <ul class="nav">
+                        <a class="li-dec" href="#us" style="color:#ffffff">
+                            <li>QUIENES SOMOS</li>
+                        </a>
+                        <a class="li-dec" href="#menu" style="color:#ffffff">
+                            <li>MENÚ</li>
+                        </a>
+                        <a class="li-dec" href="#direccion" style="color:#ffffff">
+                            <li>DIRECCIÓN</li>
+                        </a>
+                        <a class="li-dec" href="#contacto" style="color:#ffffff">
+                            <li>CONTACTO</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./css/assets/carrr.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./css/assets/car.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./css/assets/carr.jpg" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="./css/assets/carrousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./css/assets/carrousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./css/assets/car.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -218,84 +290,70 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>--->
 
 
 
 
     <!---Modal Gallery-->
     <!---Image 1-->
-        <div    
-            tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true"
-            class="modal fade" id="modalImage1">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <img src="./css/assets/burguer1.jpg">
-                </div>
+    <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./css/assets/burguer1.jpg">
             </div>
         </div>
+    </div>
 
-     <!---Image 2-->
-        <div    
-            tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true"
-            class="modal fade" id="modalImage2">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <img src="./css/assets/burguer2.jpg">
-                </div>
+    <!---Image 2-->
+    <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./css/assets/burguer2.jpg">
             </div>
         </div>
+    </div>
     <!---Image 3-->
-        <div    
-            tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true"
-            class="modal fade" id="modalImage3">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <img src="./css/assets/burguer4.jpg">
-                </div>
+    <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./css/assets/burguer4.jpg">
             </div>
         </div>
-    
+    </div>
+
     <!---Image 4-->
-        <div    
-            tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true"
-            class="modal fade" id="modalImage4">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <img src="./css/assets/burguer3.jpg">
-                </div>
+    <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./css/assets/burguer3.jpg">
             </div>
         </div>
+    </div>
     <!---Image 5-->
-        <div    
-          tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true"
-          class="modal fade" id="modalImage5">
-          <div class="modal-dialog modal-lg modal-dialog-centered">
-              <div class="modal-content">
-                  <img src="./css/assets/frp1.jpg">
-              </div>
-          </div>
-      </div>
+    <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./css/assets/frp1.jpg">
+            </div>
+        </div>
+    </div>
     <!---Image 6-->
-        <div    
-            tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true"
-            class="modal fade" id="modalImage6">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <img src="./css/assets/frp2.jpg">
-                </div>
+    <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./css/assets/frp2.jpg">
             </div>
         </div>
+    </div>
     <!---Image 7-->
-        <div    
-            tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true"
-            class="modal fade" id="modalImage7">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <img src="./css/assets/frp3.jpg">
-                </div>
+    <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./css/assets/frp3.jpg">
             </div>
         </div>
+    </div>
     <!--Modal Gallery end-->
 
 
@@ -304,7 +362,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/d7937845d5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
