@@ -209,6 +209,30 @@
 
 /*******suc********/
 
+.suc-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.suc-dir {
+    color: #444444;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+}
+
+.suc-dir:hover {
+    color: #444444;
+    opacity: 0.8;
+}
+
+.suc-dir:focus {
+    color: #ff0081;
+}
+
 .icn-flex {
     display: flex;
     flex-direction: row;
@@ -227,6 +251,7 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
+    padding: 50px 0px;
 }
 
 .suc2-title {
